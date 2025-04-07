@@ -1,6 +1,5 @@
 from loguru import logger
 
-
 logger.add("execution_logs/loguru_sample.log")
 
 def logs_sample():
