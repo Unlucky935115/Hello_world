@@ -6,7 +6,6 @@ def are_anagrams(str1, str2):
     
     # Sort the characters of both strings and compare
     return sorted(str1) == sorted(str2)
-
 # Example usage
 print(are_anagrams("listen", "silent"))  # True
 print(are_anagrams("hello", "world"))    # False
